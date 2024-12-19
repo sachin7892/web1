@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f2; /* Light beige */
+  color: #4a4a4a; /* Medium grey for text */
+}
+
+header {
+  background-color: #1e293b; /* Navy blue */
+  color: #ffffff; /* White */
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff; /* Pure white for content sections */
+  border-radius: 8px;
+}
+
+.box {
+  background-color: #e2e8f0; /* Soft grey-blue */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1; /* Light grey border */
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #1e293b; /* Consistent with header */
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+/* Optional Button Style */
+button {
+  background-color: #1e293b; /* Navy blue */
+  color: #ffffff; /* White */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c1a2b; /* Darker navy blue for hover effect */
+}
